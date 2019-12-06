@@ -514,6 +514,12 @@ namespace ISMRMRD
     o = std::string(buffer);
   }
 
+  void to_string_val(const unsigned int &v, std::string &o) {
+      char buffer[256];
+      sprintf(buffer, "%d", v);
+      o = std::string(buffer);
+  }
+
   void to_string_val(const long& v, std::string& o)
   {
     char buffer[256];

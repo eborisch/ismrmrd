@@ -245,9 +245,9 @@ namespace ISMRMRD
 
     }
     
-    unsigned short minimum;
-    unsigned short maximum;
-    unsigned short center;
+    unsigned int minimum;
+    unsigned int maximum;
+    unsigned int center;
   };
 
   struct EncodingLimits
